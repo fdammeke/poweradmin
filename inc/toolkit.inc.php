@@ -318,14 +318,14 @@ $server_types = array("MASTER", "SLAVE", "NATIVE");
 
 // $rtypes - array of possible record types
 $rtypes = array(
-    'PTR',
     'A',
     'AAAA',
     'CNAME',
     'MX',
+    'TXT',
+    'PTR',
     'NS',
     'SOA',
-    'TXT',
     'CAA',
     'SRV',
     'DNSKEY',
